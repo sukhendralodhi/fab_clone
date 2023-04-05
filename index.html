@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook-connect to people</title>
+    <!-- tailwind css  -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <!-- main section start -->
+    <div class="h-screen w-full">
+        <!-- navbar start  -->
+        <header class="w-full h-1/6 bg-blue-900">
+            <nav class="container mx-auto flex justify-between items-center h-20 pt-2">
+                <div>
+                    <h4 class="text-5xl font-bold text-white">facebook</h4>
+                </div>
+                <div class="flex items-center space-y-1 space-x-2 justify-center h-20">
+                    <div class="h-14 mt-1">
+                        <label for="email" class="text-white">Email or phone</label> <br>
+                        <input type="text" class="border-none outline-none px-2 rounded">
+                    </div>
+                    <div class="h-14">
+                        <label for="password" class="text-white">Password</label> <br>
+                        <input type="password" class="border-none outline-none px-2 rounded"> <br>
+                        <a href="" class="text-white text-xs">Forgotten password?</a>
+                    </div>
+                    <div class="h-14">
+                        <button class="bg-blue-950 px-1 mt-6 rounded hover:bg-blue-800">
+                            <a href="" class="text-white">Log In</a>
+                        </button>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <!-- navbar end -->
+
+        <!-- hero section start -->
+        <main class="bg-gray-100 h-5/6">
+            <div class="container flex mx-auto items-center justify-center pt-12">
+                <div class="left w-8/12 px-4">
+                    <img class="w-80" src="https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg" alt="">
+                    <p class="text-3xl mx-8">Facebook helps you connect and share with the people in your life.</p>
+                </div>
+                <div class="right w-4/12 mx-6 py-8 px-2.5">
+                    <h1 class="text-3xl font-bold">Create an account</h1>
+                    <p class="text-xl mt-2">It's free and always will be</p>
+                    <div class="mt-4 mb-2">
+                        <input class="border border-1 border-gray-400 py-2 rounded-lg px-1 outline-none" type="text"
+                            placeholder="First name">
+                        <input class="border border-1 border-gray-400 py-2 rounded-lg px-1 outline-none" type="text"
+                            placeholder="Surname">
+                    </div>
+                    <div>
+                        <input class="border border-1 border-gray-400 w-full py-2 my-2 rounded-lg px-1 outline-none"
+                            type="text" placeholder="Mobile number or email address">
+                    </div>
+                    <div>
+                        <input class="border border-1 border-gray-400 w-full py-2 my-2 rounded-lg px-1 outline-none"
+                            type="password" placeholder="New password">
+                    </div>
+                    <div class="my-2">
+                        <label for="dob" class="text-2xl font-medium ">Birthday</label> <br>
+                        <input type="date" class="outline-none mt-2 border border-1 border-gray-400 rounded px-2"><span
+                            class="text-xs pl-0.5 hover:text-slate-900"><a href="">Why do i need to provide my date of
+                                birth?</a></span>
+                    </div>
+                    <div>
+                        <input type="radio" class="mx-2" name="" id=""><span class="text-xl font-medium">Female</span>
+                        <input type="radio" class="mx-2"><span class="text-xl font-medium">Male</span>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <!-- hero section end -->
+    </div>
+    <!-- main section end -->
+</body>
+
+</html>
